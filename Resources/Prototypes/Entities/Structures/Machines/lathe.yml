@@ -214,6 +214,7 @@
     - RootSpeakTranslator
     - BasicGalaticCommonTranslatorImplanter
     - MofficTranslator
+    - TapeRecorderStatic
   - type: EmagLatheRecipes
     emagStaticRecipes:
     - BoxLethalshot
