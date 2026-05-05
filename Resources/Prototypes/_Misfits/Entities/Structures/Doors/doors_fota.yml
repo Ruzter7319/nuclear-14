@@ -69,7 +69,7 @@
     layoutId: AirlockService
 
 - type: entity
-  parent: BaseFenceMetalGate
+  parent: FenceMetalGate
   id: N14DoorFenceMetalGateLockedFotA
   suffix: FotA, Locked
   components:
