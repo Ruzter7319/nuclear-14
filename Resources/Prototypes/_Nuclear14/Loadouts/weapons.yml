@@ -79,7 +79,7 @@
   items:
     - N14WeaponPistol9mm
 
-  - type: loadout
+- type: loadout
   id: N14WeaponPistol45Colt
   category: Weapons
   cost: 3
@@ -99,7 +99,8 @@
   items:
     - N14WeaponPistol45Colt
 
-  - type: loadout
+
+- type: loadout
   id: N14WeaponPistol12mm
   category: Weapons
   cost: 3
@@ -120,7 +121,7 @@
     - N14WeaponPistol12mm
 
 
-  - type: loadout
+- type: loadout
   id: N14WeaponPistol9mmChinese
   category: Weapons
   cost: 3
@@ -143,7 +144,7 @@
   items:
     - N14WeaponPistol9mmChinese
 
-  - type: loadout
+- type: loadout
   id: N14WeaponPistolWebley
   category: Weapons
   cost: 3
