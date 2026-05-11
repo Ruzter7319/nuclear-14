@@ -502,6 +502,10 @@
   requirements:
     - !type:CharacterItemGroupRequirement
       group: N14LoadoutMelee
+    - !type:CharacterDepartmentRequirement
+      inverted: true
+      departments:
+        - BrotherhoodOfSteel 
   items:
     - N14LongSword
 
@@ -511,7 +515,11 @@
   cost: 5
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: N14LoadoutMelee
+      group: N14LoadoutMelee    
+    - !type:CharacterDepartmentRequirement
+      inverted: true
+      departments:
+        - CaesarLegion
   items:
     - N14Gladius
 
