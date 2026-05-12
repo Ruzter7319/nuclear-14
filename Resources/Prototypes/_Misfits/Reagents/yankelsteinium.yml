@@ -1,10 +1,10 @@
 ﻿- type: reagent
   id: yankelsteinium
-  name: Yankelsteinium
+  name: reagent-name-Yankelsteinium
   group: Toxins
-  desc: A scary chemical. DROP AND RUN
+  desc: reagent-desc-yankelsteinium
   flavor: bitter
-  color: "#cf3600"
+  color: "#ada4a3"
   physicalDesc: reagent-physical-desc-scary
   metabolisms:
     Poison:
