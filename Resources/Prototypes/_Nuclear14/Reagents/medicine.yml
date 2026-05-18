@@ -9,6 +9,7 @@
   color: "#934435"
   metabolisms:
     Medicine:
+      metabolismRate: 1.0
       effects:
         - !type:AmbientDrugFlavorText
           cooldownId: HealingMixtureAmbient
@@ -25,30 +26,30 @@
         - !type:HealthChange
           damage:
             groups:
-              Burn: -2.5
-              Brute: -2.5
-              Airloss: -2.5
+              Burn: -5
+              Brute: -5
+              Airloss: -3
         - !type:ModifyBleedAmount
           amount: -2
         - !type:HealthChange # Bonus for poison
           conditions:
           - !type:ReagentThreshold
-            min: 30
+            min: 27
           damage:
             groups:
               Burn: -1.25
               Brute: -1.25
               Airloss: -1.25
             types:
-              Poison: 0.3
+              Poison: 3
         - !type:HealthChange # to prevent doping
           conditions:
           - !type:ReagentThreshold
-            min: 50
+            min: 30
           - !type:MobStateCondition #Misfits Tweak: OD can push to crit but never kill
           damage:
             types:
-              Poison: 1.5
+              Poison: 5
 
 - type: reagent
   id: DirtyStimpak
@@ -75,11 +76,12 @@
       - !type:HealthChange
         damage:
           groups:
-            Burn: -1.5
-            Brute: -1.5
-            Airloss: -1.5
+            Burn: -2.0
+            Brute: -2.0
+            Airloss: -2.0
           types:
-            Radiation: 0.1
+            Radiation: 0.5
+            Poison: 0.25
       - !type:ModifyBleedAmount
         amount: -1
       - !type:HealthChange # to prevent doping
@@ -92,7 +94,7 @@
             Brute: -1.0
             Airloss: -1.0
           types:
-            Poison: 0.2
+            Poison: 0.75
       - !type:HealthChange
         conditions:
         - !type:ReagentThreshold
@@ -251,9 +253,9 @@
       - !type:HealthChange
         damage:
           groups:
-            Burn: -6.125
-            Brute: -6.125
-            Airloss: -6.125
+            Burn: -8.125
+            Brute: -8.125
+            Airloss: -8.125
       - !type:ModifyBleedAmount
         amount: -3
       - !type:HealthChange # Taking 2 is more or less a guaranteed death
