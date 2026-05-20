@@ -5381,3 +5381,10 @@ Entries:
   id: 5915
   time: '2026-05-20T02:17:50.0000000+00:00'
   url: https://github.com/Misfit-Sanctuary/nuclear-14/pull/559
+- author: Ruzter7319
+  changes:
+    - type: Tweak
+      message: 'my pets can understand me now, most pets know tribal and sign now. '
+  id: 5916
+  time: '2026-05-20T02:18:49.0000000+00:00'
+  url: https://github.com/Misfit-Sanctuary/nuclear-14/pull/561
